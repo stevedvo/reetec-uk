@@ -25,13 +25,21 @@ switch ($page) {
 
 	<body>
 		<div class="container-fluid">
-			<div id="wrapper" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div id="wrapper">
 				<?php
 					$page_title = "Reetec Electrical Services | Home";
 					include ("includes/header.html");
-					include ("includes/index.html");
-					// include ("includes/" . $load);
 				?>
+				<section id="sidebar" class="col-lg-3 col-md-3 col-sm-4 hidden-xs">
+					<?php
+						include ("includes/sidebar.html");
+					?>
+				</section>
+				<section id="mainbody" class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+					<?php
+						include ("includes/index.html");
+					?>
+				</section>
 			</div>
 		</div>
 	</body>
