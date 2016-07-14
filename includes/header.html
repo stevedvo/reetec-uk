@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title><?php echo $page_title; ?></title>
+	</head>
+
+	<body>
+		<header id="header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 page-header" style="margin-top: 0px; padding: 0px">
+			<section id="banner">
+				<section id="bannerImg_lg" class="hidden-sm hidden-xs">
+					<img src="images/banner_lg.jpg" alt="Banner"/>
+				</section>
+				<section id="bannerImg_sm" class="hidden-lg hidden-md hidden-xs">
+					<img src="images/banner_sm.jpg" alt="Banner"/>
+				</section>
+				<section id="bannerImg_xs" class="hidden-lg hidden-md hidden-sm">
+					<img id="testpic" src="images/banner_480.jpg" alt="Banner" width="100%"/>
+				</section>
+				
+			</section>
+
+			<nav id="menu">
+				<img id="navGrad" src="images/nav_grad.png" alt="Nav Fill"/>
+				<ul class="list-inline">
+					<li style="border-left: thin solid black;"><a href="index.php">Home</a></li>
+					<li class="hidden-xs"><a href="domestic.html">Domestic</a></li>
+					<li class="hidden-xs"><a href="industrial.html">Industrial, Commercial & Agricultural</a></li>
+					<li class="hidden-xs"><a href="inspection.html">Inspection & Testing</a></li>
+					<li class="hidden-lg hidden-md hidden-sm" id="services_dropdown" style="color: white;">Services</li>
+					<li><a href="contact.php">Contact Us</a></li>
+				</ul>
+				<ul class="list-unstyled" id="services_menu" style="display: none;">
+					<li><a href="domestic.html">Domestic</a></li>
+					<li><a href="industrial.html">Industrial, Commercial & Agricultural</a></li>
+					<li><a href="inspection.html">Inspection & Testing</a></li>
+				</ul>											
+			</nav>
+		</header>
+	</body>
+
+</html>
