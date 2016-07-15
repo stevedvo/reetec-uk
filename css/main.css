@@ -39,7 +39,7 @@ p, ol
 
 #bannerImg_sm
 {
-	width: 768px;
+	width: 732px;
 	margin: auto;
 }
 
@@ -80,7 +80,7 @@ p, ol
 
 	.list-inline>li
 	{
-		padding: 0px 25px !important;
+		padding: 0px 20px !important;
 	}
 }
 
@@ -107,6 +107,10 @@ p, ol
 	.list-inline>li
 	{
 		padding: 0px 45px !important;
+	}
+	#sidebar
+	{
+		padding-right: 0px;
 	}
 }
 
@@ -142,12 +146,17 @@ p, ol
 	text-align: center;
 	background: transparent;
 	position: relative;
-	left: -19px;
+	left: -26px;
 }
 
 #services_menu>li
 {
 	line-height: 200%;
+}
+
+.ServUpDown
+{
+	font-size: 10px;
 }
 
 #sidebar, #mainbody
